@@ -117,41 +117,28 @@ if (num1 == num2 || num1 == num3 || num2 == num3) {
 // 6. Запитатись у юзера одну кнопоку від 1 до = на клавіатурі та вивести що буде при нажиманні цифри разом з шифтом.
 let button = prompt('Вибери кнопку на клаві від 1 до =');
 
-switch (button) {
-  case '1':
-    alert(`Якщо натиснути ${button} разом із Shift, отримаєш !`);
-    break;
-  case '2':
-    alert(`Якщо натиснути ${button} разом із Shift, отримаєш @`);
-    break;
-  case '3':
-    alert(`Якщо натиснути ${button} разом із Shift, отримаєш #`);
-    break;
-  case '4':
-    alert(`Якщо натиснути ${button} разом із Shift, отримаєш $`);
-    break;
-  case '5':
-    alert(`Якщо натиснути ${button} разом із Shift, отримаєш %`);
-    break;
-  case '6':
-    alert(`Якщо натиснути ${button} разом із Shift, отримаєш ^`);
-    break;
-  case '7':
-    alert(`Якщо натиснути ${button} разом із Shift, отримаєш &`);
-    break;
-  case '8':
-    alert(`Якщо натиснути ${button} разом із Shift, отримаєш *`);
-    break;
-  case '9':
-    alert(`Якщо натиснути ${button} разом із Shift, отримаєш (!)`);
-    break;
-  case '0':
-    alert(`Якщо натиснути ${button} разом із Shift, отримаєш )`);
-    break;
-  case '-':
-    alert(`Якщо натиснути ${button} разом із Shift, отримаєш _`);
-    break;
-  case '=':
-    alert(`Якщо натиснути ${button} разом із Shift, отримаєш +`);
-    break;
-  };
+if (button == '1') {
+  alert(`Якщо натиснути ${button} разом із Shift, отримаєш !`);
+} else if (button == '2') {
+  alert(`Якщо натиснути ${button} разом із Shift, отримаєш @`);
+} else if (button == '3') {
+  alert(`Якщо натиснути ${button} разом із Shift, отримаєш #`);
+} else if (button == '4') {
+  alert(`Якщо натиснути ${button} разом із Shift, отримаєш $`);
+} else if (button == '5') {
+  alert(`Якщо натиснути ${button} разом із Shift, отримаєш %`);
+} else if (button == '6') {
+  alert(`Якщо натиснути ${button} разом із Shift, отримаєш ^`);
+} else if (button == '7') {
+  alert(`Якщо натиснути ${button} разом із Shift, отримаєш &`);
+} else if (button == '8') {
+  alert(`Якщо натиснути ${button} разом із Shift, отримаєш *`);
+} else if (button == '9') {
+  alert(`Якщо натиснути ${button} разом із Shift, отримаєш (`);
+} else if (button == '0') {
+  alert(`Якщо натиснути ${button} разом із Shift, отримаєш )`);
+} else if (button == '-') {
+  alert(`Якщо натиснути ${button} разом із Shift, отримаєш _`);
+} else if (button == '=') {
+  alert(`Якщо натиснути ${button} разом із Shift, отримаєш +`);
+};
